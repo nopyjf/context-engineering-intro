@@ -1,15 +1,22 @@
 ## FEATURE:
 
-[Insert your feature here]
+- Pydantic AI agent that has another Pydantic AI agent as a tool.
+- Research Agent for the primary agent and then an email draft Agent for the subagent.
+- CLI to interact with the agent.
+- Gmail for the email draft agent, Brave API for the research agent.
 
 ## EXAMPLES:
 
-[Provide and explain examples that you have in the `examples/` folder]
+<!-- [Provide and explain examples that you have in the `examples/` folder] -->
+- Free Style.
 
 ## DOCUMENTATION:
 
-[List out any documentation (web pages, sources for an MCP server like Crawl4AI RAG, etc.) that will need to be referenced during development]
+Pydantic AI documentation: https://ai.pydantic.dev/
 
 ## OTHER CONSIDERATIONS:
 
-[Any other considerations or specific requirements - great place to include gotchas that you see AI coding assistants miss with your projects a lot]
+- Include a .env.example, README with instructions for setup including how to configure Gmail and Brave.
+- Include the project structure in the README.
+- Virtual environment has already been set up with the necessary dependencies.
+- Use python_dotenv and load_env() for environment variables

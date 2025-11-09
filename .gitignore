@@ -3,3 +3,33 @@ venv_linux
 __pycache__
 .ruff_cache
 .pytest_cache
+
+# Environment variables
+.env
+
+# Credentials and tokens
+credentials/*.json
+credentials/token.json
+!credentials/.gitkeep
+
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
